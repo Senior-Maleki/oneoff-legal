@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>One Off — a builder's channel about Oracle APEX, PL/SQL and AI agents</title>
+<meta name="description" content="One Off is a YouTube channel documenting real builds, real errors and real opinions on Oracle APEX, PL/SQL and AI agents.">
+<style>
+  :root { --bg:#0B0F14; --panel:#121821; --line:#1E2732; --ink:#E8EEF5; --mut:#8A99AB; --acc:#00E08A; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:820px; margin:0 auto; padding:56px 24px 96px; }
+  .mark { display:flex; align-items:center; gap:14px; margin-bottom:40px; }
+  .mark svg { width:40px; height:40px; flex:none; }
+  .mark b { font-size:20px; letter-spacing:.14em; font-weight:800; }
+  h1 { font-size:clamp(28px,5vw,40px); line-height:1.15; margin:0 0 18px; letter-spacing:-.02em; }
+  h1 em { color:var(--acc); font-style:normal; }
+  .lede { font-size:18px; color:#C3CFDC; margin:0 0 36px; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.12em; color:var(--acc);
+       margin:44px 0 14px; font-weight:700; }
+  p, li { color:#C3CFDC; }
+  ul { padding-left:20px; }
+  li { margin:7px 0; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:22px 24px; }
+  .card h3 { margin:0 0 6px; font-size:16px; }
+  .card p { margin:0; color:var(--mut); font-size:14.5px; }
+  .grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); }
+  code { background:#0E151D; border:1px solid var(--line); border-radius:5px;
+         padding:1px 6px; font-size:13.5px; color:#9FE8C6; }
+  a { color:var(--acc); text-decoration:none; border-bottom:1px solid rgba(0,224,138,.35); }
+  a:hover { border-bottom-color:var(--acc); }
+  footer { margin-top:64px; padding-top:22px; border-top:1px solid var(--line);
+           color:var(--mut); font-size:13.5px; display:flex; flex-wrap:wrap; gap:18px; }
+  .honest { border-left:3px solid var(--acc); padding:2px 0 2px 16px; color:#C3CFDC; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="mark">
+    <svg viewBox="0 0 40 40" aria-hidden="true">
+      <rect x="17" y="4" width="6" height="3" fill="#E8EEF5"/>
+      <path d="M17 11 h6 v18 h-6 z" fill="#00E08A"/>
+      <path d="M23 11 l6 -4 v6 l-6 3 z" fill="#00E08A"/>
+      <rect x="13" y="32" width="14" height="3" fill="#E8EEF5"/>
+    </svg>
+    <b>ONE OFF</b>
+  </div>
+
+  <h1>Real builds, real errors, <em>real opinions.</em></h1>
+
+  <p class="lede">
+    One Off is a YouTube channel about building ERP systems on Oracle APEX and
+    PL/SQL, and about what actually happens along the way — the designs that
+    worked, the bugs that shipped, and the checks that caught them the second time.
+  </p>
+
+  <h2>What this site is for</h2>
+  <div class="card">
+    <h3>A public home for a private tool</h3>
+    <p>
+      This page exists so that Google can verify the identity of a small, personal
+      application called <strong>One Off Desktop</strong>. That application has exactly one
+      user — the channel's owner — and exactly one job: uploading finished videos to
+      the One Off YouTube channel without a manual, hour-long upload for every episode.
+    </p>
+  </div>
+
+  <h2>The programmes</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>The Build Log</h3>
+      <p>One long build, documented honestly from requirement to release.</p>
+    </div>
+    <div class="card">
+      <h3>Daily Signal</h3>
+      <p>What changed in the developer world, and what it means in practice.</p>
+    </div>
+    <div class="card">
+      <h3>One Thing</h3>
+      <p>One idea, small enough to use the same day.</p>
+    </div>
+    <div class="card">
+      <h3>Oddities</h3>
+      <p>The strange little failures nobody warns you about.</p>
+    </div>
+  </div>
+
+  <h2>What the application does with Google</h2>
+  <p>
+    <strong>One Off Desktop</strong> requests two permissions, and only these two:
+  </p>
+  <ul>
+    <li><code>youtube.upload</code> — to upload a finished video file to the channel.</li>
+    <li><code>youtube.force-ssl</code> — to set the custom thumbnail on that video.</li>
+  </ul>
+  <p>
+    It does not read your email, your Drive, your contacts or your watch history.
+    It cannot delete the channel. It runs on the owner's own computer; there is no
+    server, no database of users, and no third party receiving data. The full
+    detail is in the <a href="privacy.html">privacy policy</a>.
+  </p>
+
+  <h2>Honesty about money</h2>
+  <p class="honest">
+    One Off is made from Iran, which is not currently a country where YouTube's
+    Partner Programme is available. There is no advertising revenue here and the
+    channel does not pretend otherwise. The point is the craft and the watch time,
+    not the payout.
+  </p>
+
+  <h2>Where to find it</h2>
+  <p>
+    The channel is on YouTube as
+    <a href="https://www.youtube.com/@OneOffTech">@OneOffTech</a>.
+    The engine that produces the episodes is built in the open.
+  </p>
+
+  <footer>
+    <span>One Off — a personal channel and a personal tool.</span>
+    <a href="privacy.html">Privacy policy</a>
+    <a href="terms.html">Terms of service</a>
+  </footer>
+
+</div>
+</body>
+</html>
